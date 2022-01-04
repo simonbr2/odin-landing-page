@@ -1,5 +1,14 @@
 /* styles.css */
 
+a {
+  text-decoration: none; 
+  color: white;
+}
+
+a:hover {
+  color: darkgreen;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -7,18 +16,60 @@
   padding-left: 20px;
   padding-right: 20px;
   flex-basis: 50 px;
-  background-color: #1F2937;
+  background-color: #3c506b;
   text-decoration: none;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
 }
 
 .header-links ul{
+  text-decoration: none;
   display: flex;
   gap: 40px;
   color: #E5E7EB;
   font-size: 18px;
-  text-decoration: none;
 }
 
 ul {
   list-style-type: none;
+  text-decoration: none;
+}
+
+.container-1 {display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  position: relative;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 12px 12px;
+  text-decoration: none;
+  align-self: center;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
+  margin-top: 10px; 
+}
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+  gap: 10px;
+  margin: 50px;
+}
+
+.caption {
+  max-width: 200px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
 }
